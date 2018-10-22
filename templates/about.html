@@ -1,21 +1,8 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-
-<head>
-  <meta charset="utf-8">
-  {% if title %}
-  <title>{{ title }}</title>
-  {% else %}
-  <title>About</title>
-  {% endif %}
-</head>
-
-<body>
+{% extends "layout.html" %}
+{% block content %}
   <h2>About OneHungryGeek</h2>
   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ornare velit mauris, sollicitudin interdum leo laoreet eget. Vivamus imperdiet quis justo sit amet varius. Nunc ornare tortor odio, sed posuere enim suscipit eget. Curabitur feugiat
     enim et facilisis scelerisque. Sed at interdum ipsum. Curabitur vulputate nunc nulla, non maximus metus feugiat eu. Sed aliquam hendrerit consectetur. Vivamus dapibus congue ultricies. Nullam egestas porta egestas. Donec dolor eros, eleifend vel
     nisl at, suscipit vestibulum purus. Phasellus accumsan nunc leo, vel egestas diam gravida nec. Maecenas consequat mollis lacinia. Maecenas luctus felis at ultricies posuere. Duis porttitor velit a orci dictum fermentum. Ut fringilla, eros
     efficitur iaculis fermentum, lacus tortor ullamcorper est, quis molestie augue sem egestas enim.</p>
-</body>
-
-</html>
+{% endblock content %}
